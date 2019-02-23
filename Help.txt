@@ -1,0 +1,9 @@
+Compilation Help:
+
+Visual Studio: 
+  For wxWidgets, look here: http://wiki.wxwidgets.org/Microsoft_Visual_C%2B%2B_Guide	
+  You also need pugixml: http://pugixml.org/
+  
+CMake:
+  there is a cmake file included (just tested with Linux (g++))
+    Ubuntu 14.04: you need

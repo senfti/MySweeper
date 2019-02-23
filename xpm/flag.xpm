@@ -1,0 +1,19 @@
+/* XPM */
+static char *xpm_flag[] = {
+/* columns rows colors chars-per-pixel */
+"10 10 3 1",
+"  c black",
+". c red",
+"X c #C0C0C0",
+/* pixels */
+"XXXX..XXXX",
+"XX....XXXX",
+"X.....XXXX",
+"XX....XXXX",
+"XXXX..XXXX",
+"XXXXX XXXX",
+"XXXXX XXXX",
+"XXX    XXX",
+"X        X",
+"X        X"
+};
