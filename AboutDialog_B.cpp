@@ -18,7 +18,7 @@ AboutDialog_B::AboutDialog_B( wxWindow* parent, wxWindowID id, const wxString& t
 	wxBoxSizer* bSizer2;
 	bSizer2 = new wxBoxSizer( wxVERTICAL );
 	
-	m_staticText2 = new wxStaticText( this, wxID_ANY, wxT("MySweeper 1.0.3-rc\nCopyright © 2014 by Thomas Senfter\ne-mail: thomassenfter@gmx.at"), wxDefaultPosition, wxDefaultSize, wxALIGN_CENTRE );
+	m_staticText2 = new wxStaticText( this, wxID_ANY, wxT("MySweeper 1.2.2 Developer Build\nCopyright © 2014-2020 by Thomas Senfter\ne-mail: thomassenfter@gmx.at"), wxDefaultPosition, wxDefaultSize, wxALIGN_CENTRE );
 	m_staticText2->Wrap( 480 );
 	m_staticText2->SetFont( wxFont( 12, 70, 90, 92, false, wxEmptyString ) );
 	

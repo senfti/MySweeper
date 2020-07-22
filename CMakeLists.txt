@@ -17,4 +17,4 @@ ADD_DEFINITIONS(
 
 add_executable(MySweeper WIN32 ${SRCS})
 
-target_link_libraries(MySweeper ${wxWidgets_LIBRARIES} libcryptopp.a libpugixml.a)
+target_link_libraries(MySweeper ${wxWidgets_LIBRARIES} -no-pie libpugixml.a)

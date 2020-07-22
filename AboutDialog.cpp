@@ -34,9 +34,9 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "AboutDialog.h"
 
 AboutDialog::AboutDialog() : AboutDialog_B(NULL){
-//this code is needed because © is not shown right in wxMSW (Windows)
+//this code is needed because ï¿½ is not shown right in wxMSW (Windows)
 #ifdef __WXMSW__
-  m_staticText2->SetLabel("MySweeper 1.0.3-rc\nCopyright © 2014 by Thomas Senfter\ne - mail: thomassenfter@gmx.at");
+  m_staticText2->SetLabel("MySweeper 1.2.2 Developer Build\nCopyright ï¿½ 2014-2020 by Thomas Senfter\ne - mail: thomassenfter@gmx.at");
 #endif
 }
 
